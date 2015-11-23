@@ -7,10 +7,11 @@
     "128": "img/icon_128.png"
   },
   "background": {
+
     "persistent": false,
     "scripts": ["js/bg.js"]
   },
-  "permissions": ["http://*.google.com/", "https://*.google.com/"],
+//  "permissions": ["http://*.google.com/", "https://*.google.com/"],
   "browser_action": {
     "default_title": "",
     "default_icon": "img/icon_19.png",
@@ -18,7 +19,7 @@
   },
   "content_scripts": [
     {
-      "matches": ["http://www.taobao.com/*"],
+      "matches": ["*://*.taobao.com/*"],
       "css": ["css/contentstyle.css"],
       "js": ["js/contentscript.js"]
     }
