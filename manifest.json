@@ -4,7 +4,7 @@
   "manifest_version": 2,
   "description": "Use Chrome Extension to get original image size in Taobao for her",
   "icons": {
-    "128": "img/icon_128.png"
+    "128": "img/snow-128.png"
   },
   "background": {
 
@@ -14,7 +14,7 @@
 //  "permissions": ["http://*.google.com/", "https://*.google.com/"],
   "browser_action": {
     "default_title": "",
-    "default_icon": "img/icon_19.png",
+    "default_icon": "img/snow.png",
     "default_popup": "popup.html"
   },
   "content_scripts": [
